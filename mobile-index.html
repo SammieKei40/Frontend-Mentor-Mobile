@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+<meta charset="UTF-8">
+  
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<!-- displays site properly based on user's device -->
+
+  
+ <title>Frontend Mentor | Insure landing page</title>
+  
+
+<style>
+body {
+  font-family: Karla, Helvetica, DM Serif Display; sans-serif;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+  text-align: center;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+	text-align: center;
+  color: black;
+  width: 100%;
+  padding: 23px;
+  margin: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.box1 {
+	float: left;
+  width: 100%;
+padding: 23px;
+margin: 5px;
+}
+.attribution { font-size: 12px; text-align: center; color: black; }
+    
+.attribution a { color: hsl(228, 45%, 44%); }
+</style>
+
+</head>
+
+	<body>
+	<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <div class="active">INSURE</div>
+  <div id="myLinks">
+	<a href="#news">HOW WE WORK</a>
+    <a href="#news">BLOG</a>
+    <a href="#contact">ACCOUNT</a>
+    <a href="#about">VIEW PLANS</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+
+	<div style="background-color:hsl(256, 26%, 20%);color:white;padding:40px;"> 
+	<img src="image-intro-mobile.jpg" style="float:right; text-align: center;">
+	
+	<h1 style="font-size:50px; text-align:center;">Humanizing <br> your insurance.<h1>	
+	 <p style="font-size:17px;text-align:center;">Get your life insurance coverage easier and <br> faster. We blend our expertise and <br> technology to help you find the plan that’s <br> right for you. Ensure you and your loved <br> ones are protected.</p> <br>
+	 <button a href="view.html" style="background-color:hsl(256, 26%, 20%); color:white; padding:10px; text-align:center;">ViEW PLANS</button> 	 
+   	</div>
+
+	<h1 style="color:black;padding:50px; font-size:50px; text-align: center;">We're different</h1>
+	
+	<div class="clearfix">
+	<div class="box">
+	<img src="icon-snappy-process.svg">
+	<br>
+	<h2>Snappy Process</h2>
+	<br> <p>Our application process can be completed <br> in  minutes, not hours. Don’t get stuck filling <br> in  tedious forms.
+	</div>
+
+	<div class="box">
+	<img src="icon-affordable-prices.svg">
+	<br>
+	<h2>Affordable Prices</h2><br> 
+	<p>We don’t want you worrying about high <br> monthly costs. Our prices may be low, 
+	but <br> we still offer the best coverage possible.</p>
+	</div>
+	
+	<div class="box">
+	<img src="icon-people-first.svg">
+	<br>
+	<h2>People First</h2><br>
+	<p>Our plans aren’t full of conditions and <br> clauses to prevent payouts. We make sure <br> you’re covered when you need it</p>
+	</div>
+	</div>
+	
+	<div style="background-color:hsl(256, 26%, 20%);color:white;padding:70px; margin:10%;"> 
+	<h1>Find out more <br> about how we work <button a href="view.html" style="background-color:hsl(256, 26%, 20%);color:white; padding:10px; float:right;">How we work</button></div>
+
+	
+	<div style="background-color:white; text-align: center;">
+            <div class="active">INSURE</div>
+	     <a class="active" href="facebook.com" target="_blank"><img src="icon-facebook.svg"></a>
+              <a href="twitter.com" target="_blank"><img src="icon-twitter.svg"></a>
+	      <a href="pinterest" target="_blank"><img src="icon-pinterest.svg"></a>
+	      <a href="instagram" target="_blank"><img src="icon-instagram.svg"></a>
+		  
+		  <br>
+		  
+	<div class="clearfix">
+	<div class="box1">
+	<a href="">Our company</a>
+	<br>
+	<br>
+	<a href="">How we work</a>
+	<br>
+	<a href="">Why Insure?</a>
+	<br>
+	<a href="">View plans</a>
+	<br>
+	<a href="">Reviews</a>
+	</div>
+
+	<div class="box1">
+	<a href="">Help me</a>
+	<br>
+	<br>
+	<a href="">FAQ</a>
+	<br>
+	<a href="">Terms of use</a>
+	<br>
+	<a href="">Privacy policy</a>
+	<br>
+	<a href="">Cookies</a>
+	</div>
+	
+
+	<div class="box1">
+	<a href="">Contact</a>
+	<br>
+	<br>
+	<a href="">Sales</a>
+	<br>
+	<a href="">Support</a>
+	<br>
+	<a href="">Live chat</a>
+	</div>
+
+
+	<div class="box1">
+	<a href="">Others</a>
+	<br>
+	<br>
+	<a href="">Careers</a>
+	<br>
+	<a href="">Press</a>
+	<br>
+	<a href="">Licenses</a>
+	</div>
+	</div>
+
+	<div class="attribution"><p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></p>
+	<br>
+	Coded by <a href="#">Sammie Kei</a>
+	</div>
+	
+</div>
+</body>
+</html>
